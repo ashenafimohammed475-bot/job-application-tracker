@@ -64,25 +64,23 @@ Run the application:
 
 python main.py
 
-## screenshots
+## 📸 Screenshots
 
-📸 Screenshots
+### Main Menu
 
-## Main Menu
+![Main Menu](screenshots/menu.png)
 
-![Main_Menu] (screenshots/menu.png)
+### Add Application
 
-## Add_Application
+![Add Application](screenshots/add_application.png)
 
-![Add_Application] (screenshots/add_application.png)
+### Search by Status
 
-## Search by status
+![Search by Status](screenshots/Search_Status.png)
 
-![Search_Status] (Search_Status.png)
+### Summary
 
-## Summary
-
-![Summary] (summary.png)
+![Summary](screenshots/summary.png)
 
 Main Menu
 
