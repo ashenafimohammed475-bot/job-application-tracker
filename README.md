@@ -1,58 +1,122 @@
-# 💼 Job Application Tracker (CLI)
+📄 Job Application Tracker (CLI)
 
-A simple and practical Python command-line application to track job applications, monitor their status, and get a clear overview of your job search progress.
+A simple and practical Python command-line application for tracking job applications, their statuses, and related notes — all stored locally using CSV files.
 
-This project focuses on clean structure, real-world workflows, and persistent data storage.
+This project is designed to mirror real-world job tracking while strengthening core Python and data-handling skills.
 
----
+📌 What This Project Does
 
-## 📌 What This Project Does
+Records job applications with company name, role, status, and date
 
-- Records job applications with key details
-- Tracks application status (applied, interview, rejected, offer)
-- Allows filtering by status
-- Provides a summary of application progress
-- Stores data locally in CSV format
+Stores data persistently in CSV format
 
----
+Allows searching and filtering by application status
 
-## 🚀 Features
+Provides summaries to track progress over time
 
-➕ Add new job applications  
-📋 View all saved applications  
-🔍 Search applications by status  
-📊 View summary of application progress  
-🗂️ Persistent storage using CSV  
-✅ Input validation for safer data entry
+🚀 Features
 
----
+➕ Add new job applications
 
-## 🧾 Data Stored
+📋 View all saved applications
 
-Each application includes:
+🔍 Search applications by status (Applied, Interview, Rejected, Offer)
 
-- Date
-- Company name
-- Position
-- Status
-- Optional notes
+📊 Summary of application statuses
 
----
+🗂️ Automatic CSV header handling
 
-## 🛠️ Technologies Used
+✅ Input validation for cleaner data
 
-- Python
-- CSV file handling
-- Standard Library (`datetime`, `os`)
-- Git & GitHub
-- Command-line interface (CLI)
+🗂️ Application Statuses
 
----
+Applied
 
-## ▶️ How to Run the Project
+Interview
+
+Rejected
+
+Offer
+
+(Statuses are validated to avoid invalid entries)
+
+🛠️ Technologies Used
+
+Python
+
+CSV file handling
+
+Git & GitHub
+
+Command-line interface (CLI)
+
+▶️ How to Run the Project
 
 Clone the repository:
 
-```bash
-git clone https://github.com/YOUR_USERNAME/job-application-tracker.git
-```
+git clone https://github.com/ashenafimohammed475-bot/job-application-tracker.git
+
+Navigate to the project folder:
+
+cd job-application-tracker
+
+Run the application:
+
+python main.py
+
+## screenshots
+
+📸 Screenshots
+
+## Main Menu
+
+![Main_Menu] (screenshots/menu.png)
+
+## Add_Application
+
+![Add_Application] (screenshots/add_application.png)
+
+## Search by status
+
+![Search_Status] (Search_Status.png)
+
+## Summary
+
+![Summary] (summary.png)
+
+Main Menu
+
+Add Application
+
+Search by Status
+
+Summary View
+
+🎯 Why This Project?
+
+This project was built to practice and demonstrate:
+
+File handling and persistent storage
+
+Structured, function-based program design
+
+Input validation and user-friendly CLI flows
+
+Building tools that directly support real-life job searching
+
+🔮 Future Improvements
+
+Notes field for each application
+
+Date-based filtering
+
+CSV export for sharing
+
+SQLite database support
+
+Web or GUI version
+
+👤 Author
+
+Mohammed
+Aspiring software developer focused on practical problem-solving, continuous learning, and building real-world tools.
